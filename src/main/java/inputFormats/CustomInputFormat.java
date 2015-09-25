@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package inputFormats;
 
 import java.io.IOException;
@@ -16,10 +11,6 @@ import org.apache.hadoop.mapred.Reporter;
 import org.apache.hadoop.mapred.TextInputFormat;
 import recordReaders.CustomRecordReader;
 
-/**
- *
- * @author kalanihalemano
- */
 public class CustomInputFormat extends TextInputFormat{
     
     public RecordReader<LongWritable, Text> getRecordReader(InputSplit inputSplit,

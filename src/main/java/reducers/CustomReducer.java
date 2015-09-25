@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package reducers;
 
 import java.io.IOException;
@@ -10,10 +5,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 import outputValues.ScoreKeeperOutput;
 
-/**
- *
- * @author kalanihalemano
- */
 public class CustomReducer
         extends Reducer<Text, ScoreKeeperOutput, Text, ScoreKeeperOutput> {
 

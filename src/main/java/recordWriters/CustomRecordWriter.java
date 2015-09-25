@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package recordWriters;
 
 import java.io.DataOutputStream;
@@ -13,10 +8,6 @@ import org.apache.hadoop.mapreduce.RecordWriter;
 import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import outputValues.ScoreKeeperOutput;
 
-/**
- *
- * @author kalanihalemano
- */
 public class CustomRecordWriter extends RecordWriter<Text, ScoreKeeperOutput> {
 
     private DataOutputStream out;

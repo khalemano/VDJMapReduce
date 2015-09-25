@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package outputValues;
 
 import java.io.DataInput;
@@ -12,10 +7,6 @@ import java.util.HashMap;
 import java.util.Set;
 import org.apache.hadoop.io.Writable;
 
-/**
- *
- * @author kalanihalemano
- */
 public class ScoreKeeperOutput implements Writable {
     
     private HashMap<String,Integer> data = new HashMap<>();

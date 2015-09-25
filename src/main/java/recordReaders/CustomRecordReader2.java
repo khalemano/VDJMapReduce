@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package recordReaders;
 
 import java.io.IOException;
@@ -18,10 +13,6 @@ import org.apache.hadoop.mapreduce.RecordReader;
 import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
-/**
- *
- * @author kalanihalemano
- */
 public class CustomRecordReader2 extends RecordReader<LongWritable, Text> {
 
     private long start;

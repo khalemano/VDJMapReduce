@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package main;
 
 import inputFormats.CustomInputFormat2;
@@ -17,10 +12,6 @@ import outputFormats.CustomOutputFormat;
 import outputValues.ScoreKeeperOutput;
 import reducers.CustomReducer;
 
-/**
- *
- * @author kalanihalemano
- */
 public class MutationFrequency {
 
 
@@ -28,7 +19,7 @@ public class MutationFrequency {
 
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "Mutation");
-//        job.setJarByClass(MutationFrequency.class);
+        job.setJarByClass(MutationFrequency.class);
         job.setOutputFormatClass(CustomOutputFormat.class);
         job.setInputFormatClass(CustomInputFormat2.class);
         job.setMapperClass(CustomMapper.class);
