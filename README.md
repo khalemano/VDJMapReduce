@@ -27,7 +27,7 @@ Usage
 This program has been tested on [hadoop 2.7.1](https://hadoop.apache.org/releases.html).
 The program is run with the following syntax.
 
-	hadoop jar VDJMapReduce-0.0.1-SNAPSHOT.jar /path/to/input/directory /path/to/output/directory
+	hadoop jar VDJMapReduce-0.0.1-SNAPSHOT.jar main.MutationFrequency /path/to/input/ /path/to/output/
 	
 Note that the output directory cannot exist yet. The program will make the output directory you specify.
  
